@@ -1,7 +1,29 @@
 # 📂 Dropbox Clone
 
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)  
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev/)  
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)  
+[![Firebase](https://img.shields.io/badge/Firebase-10-FFCA28?logo=firebase)](https://firebase.google.com/)  
+[![Clerk](https://img.shields.io/badge/Auth-Clerk-blueviolet)](https://clerk.com/)  
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+---
+
 A modern **Dropbox-inspired file storage application** built with **Next.js 14, TypeScript, Tailwind CSS, and Firebase**.  
 This app provides secure authentication, drag-and-drop file uploads, file management (rename/delete), and a responsive dashboard UI with light/dark mode support.
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Authentication with Clerk
+
+<img src="/public/screens/auth.png" alt="Auth Page" width="600"/>
+
+### 📂 File Dashboard
+
+<img src="/public/screens/dashboard.png" alt="Dashboard" width="600"/>
 
 ---
 
@@ -52,7 +74,7 @@ This app provides secure authentication, drag-and-drop file uploads, file manage
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/fawazv/Dropbox-clone.git
+   git clone https://github.com/fawazv/dropbox-clone.git
    cd dropbox-clone
    ```
 
@@ -100,7 +122,7 @@ dropbox-clone/
 ├── lib/                # Firebase, utils, and helper functions
 ├── store/              # Zustand store for state management
 ├── styles/             # Tailwind CSS and global styles
-├── public/             # Static assets
+├── public/             # Static assets (screenshots, logos, etc.)
 ├── package.json
 └── README.md
 ```
@@ -117,18 +139,6 @@ This project is optimized for **Vercel deployment**:
 4. Deploy 🚀
 
 Optional: Configure a **custom domain via Hostinger**.
-
----
-
-## 📸 Screenshots
-
-### 🔐 Authentication with Clerk
-
-<img src="/public/screens/auth.png" alt="Auth Page" width="600"/>
-
-### 📂 File Dashboard
-
-<img src="/public/screens/dashboard.png" alt="Dashboard" width="600"/>
 
 ---
 
